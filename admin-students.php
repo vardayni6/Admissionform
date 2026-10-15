@@ -21,7 +21,6 @@ if ($status_filter != "submitted" && $status_filter != "pending") {
     $status_filter = "";
 }
 
-
 /* =====================================================
    BUILD THE QUERY
 ===================================================== */
@@ -136,7 +135,7 @@ function tabLink($course, $status_filter, $search)
         <button type="submit" class="save-btn">Search</button>
         <a href="admin-students.php" class="save-btn secondary link-btn">Reset</a>
 
-    </form> 
+    </form>
 
     <!-- ============ TABLE ============ -->
     <div class="table-box">
@@ -191,3 +190,5 @@ function tabLink($course, $status_filter, $search)
 <?php require_once "footer.php"; ?>
 </body>
 </html>
+
+
