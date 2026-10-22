@@ -1,0 +1,19 @@
+For Review application the changes which made in Database are here added columns for review,action,satus
+ALTER TABLE students
+ADD COLUMN application_status
+VARCHAR(30) NOT NULL DEFAULT 'Draft',
+
+ADD COLUMN review_status
+VARCHAR(30) NOT NULL DEFAULT 'Not Reviewed',
+
+ADD COLUMN admin_action
+VARCHAR(30) DEFAULT NULL,
+
+ADD COLUMN admin_remark
+TEXT DEFAULT NULL,
+
+ADD COLUMN reviewed_at
+DATETIME DEFAULT NULL,
+
+ADD COLUMN resubmitted_at
+DATETIME DEFAULT NULL;

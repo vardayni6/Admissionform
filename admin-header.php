@@ -1,6 +1,8 @@
 <?php
-require_once "session.php";
-require_once "db.php";
+require_once __DIR__ . "/jwt_auth.php";
+require_once __DIR__ . "/db.php";
+
+// Continue with the existing page code below.
 $current_page = basename($_SERVER["PHP_SELF"]);
 ?>
 <header class="main-header admin-header">

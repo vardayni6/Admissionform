@@ -1,0 +1,13 @@
+# JWT secret configuration
+/jwt_config.php
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Ignore downloaded AdminLTE ZIP archive
+/AdminLTE-master (1).zip
+AdminLTE-master (1)
+
+# Ignore unnecessary local files
+*.log
